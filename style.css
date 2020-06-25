@@ -1,0 +1,217 @@
+* {
+	box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 650px) {
+	.nav a {
+		display: inline-block;
+	}
+}
+
+body {
+	font-family: "poppins", "helvetica", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Navigation */
+
+.nav {
+	min-width: 410px;
+	display: block;
+	text-align: center;
+}
+
+.nav ul {
+	display: ;
+	width:100%;
+	margin: 70px auto;
+	padding: 0 40px;
+}
+
+.nav li{
+	font-family: "poppins", "helvetica", sans-serif;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	list-style: none;
+	display: inline-block;
+}
+
+.nav a {
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin: 5px;
+}
+
+.nav a:hover {
+	color: red;
+	background-color: darkgray;
+}
+
+.nav a:visited {
+	color: purple;
+}
+
+.home-button {
+	display: block;
+	text-align: center;
+}
+.home-button a {
+	text-transform: uppercase;
+}
+
+/* Header */
+
+img{
+	width: 750px;
+	min-width: 200px;
+	display: block;
+	padding-top: 30px;
+	margin: 5px auto;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+.caption {
+	font-family: "poppins", "helvetica", sans-serif;
+	font-style: italic;
+	text-align:center;
+	padding-bottom: 30px;
+
+}
+
+.banner {
+	display: block;
+	padding: 20px;
+	width: 100%;
+	margin: 10px auto;
+	
+}
+
+.banner h3,
+.menu h3 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 300px !important 
+}
+
+#header {
+	font-family: "satisfy", "helvetica", sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	text-shadow: 3px 3px 5px rgb(117, 117, 117);
+	
+}
+
+/* Hours */
+.background {
+	background-image: url(images/lounge.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	background-color: #464646;
+	margin: 30px;
+	padding: 20px;
+	
+}
+
+.hrs {
+	
+	background-color: rgba(0,0,0,0.5);
+	background-attachment: fixed;
+	font-family: "poppins", "helvetica", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	display: block;
+	width: 45%;
+	margin: 70px auto;
+	padding: 30px;
+	text-align: center;
+}
+
+h3,
+.menu h3,
+.hrs h3 {
+	float: center;
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 0.2em;
+	width: 100%;
+	margin: 50px auto;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.hrs h4 {
+	font-weight: normal;
+	margin: 20px 0 0 0;
+}
+
+.hrs h5 {
+	margin: 0;
+	font-weight: lighter;
+	letter-spacing: 0.2em;
+}
+
+
+/* Menu */
+
+
+.items {
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	background-attachment: fixed;
+	width: 45%;
+	margin: 0px auto;
+	padding: 5px;
+	
+}
+.menu h3{
+	margin: 150px auto 0 auto !important;
+}
+
+.menu-bg {
+	background-image: url(images/coffeesniff.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	background-color: #464646;
+	width: 100%;
+	margin: 30px;
+	padding: 20px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th,
+td,
+span {
+	padding: 10px;
+	margin-bottom: 10px;
+	font-weight: lighter;
+
+}
+
+
+/* "Under Construction" Styling */
+
+.construction {
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
